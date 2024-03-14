@@ -1,11 +1,15 @@
 using TMPro;
-using UnityEngine;
 
 namespace UI
 {
-    public class NameBoardUI : MonoBehaviour
+    public class NameBoardUI : BaseUI
     {
         public TextMeshProUGUI nameText;
+
+        private void Start()
+        {
+            Show();
+        }
 
         public void SetName(string name)
         {

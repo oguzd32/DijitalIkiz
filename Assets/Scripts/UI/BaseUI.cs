@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 namespace UI
@@ -38,6 +37,6 @@ namespace UI
             {
                 gameObject.SetActive(false);
             }
-        }
+        }       
     }
 }

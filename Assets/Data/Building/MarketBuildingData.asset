@@ -12,4 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28aaf6868594464b9fc0d2af36e34b4f, type: 3}
   m_Name: MarketBuildingData
   m_EditorClassIdentifier: 
+  icon: {fileID: 0}
   buildingName: MARKET - 001
+  orderCode: O-2051920
+  itemCode: E-575
+  orderCount: 300
+  maxOrderCount: 800
+  oeePercentage: 82
+  stoveTemperature: 500
+  stoveWeight: 800
+  topMoldTemperature: 25
+  bottomMoldTemperature: 15
+  acceleration: 0.15
+  pressure: 0.25

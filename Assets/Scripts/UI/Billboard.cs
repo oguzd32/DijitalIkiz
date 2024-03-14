@@ -7,6 +7,9 @@ namespace UI
     {
         private Camera _camera;
 
+        /// <summary>
+        /// UI elements are looking camera
+        /// </summary>
         private void Update()
         {
             if (_camera == null)
